@@ -8,6 +8,7 @@ function reordenarPalabras(oracion) {
             inicio=i+1;
         }
     }
+    palabras.sort();
     return palabras;
 }
-console.log(reordenarPalabras("sol luna estrella planeta"));
+console.log(reordenarPalabras("sol luna estrella planeta sol"));
